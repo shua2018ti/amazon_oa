@@ -1,0 +1,8 @@
+(1) find a short path in a matrix for delivering package from (0,0) to the destination which has value 9. 
+In the matrix value 0 means it is not accessible, value 1 means it is accessible.
+I solved with typecial BFS search which counts the levels searched.
+
+(2) Search a given length K string in a string array but leave out these that has repeated chars, i.e: the result only 
+contains non-repeated chars K-length strings.
+I solved it with two pointers using hash set to filter repeated strings. And Then count the result string and remove 
+the ones that has repeated chars (by counting using hash map)
